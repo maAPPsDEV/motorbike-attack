@@ -27,9 +27,10 @@ In that sense, this game is easy enough for you.
 Just read EIP-1967, and understand where they saved the address of logic implementation.
 
 Then, you should realize that `Engine` contract itself is vulnerable, and all you have to do is find the address of it.
+
 No more!
 
-Here are the previous games useful:
+Here are the previous games useful to solve this game:
 - `delegatecall` - [Delegation](https://github.com/maAPPsDEV/delegation-attack)
 - reading contract storage - [Vault](https://github.com/maAPPsDEV/vault-attack), [Privacy](https://github.com/maAPPsDEV/privacy-attack)
 - proxy pattern - [PuzzleWallet](https://github.com/maAPPsDEV/puzzle-wallet-attack)
